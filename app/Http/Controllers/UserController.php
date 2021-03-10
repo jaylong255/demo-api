@@ -14,7 +14,7 @@ class UserController extends Controller
 //        return $request->user();
         try {
 //            return $request->user();
-            return response()->json(['message' => ]);
+            return response()->json(['message' => "word"]);
         } catch (Exception $e){
             return response()->json(['error'=>$e->getMessage()]);
         }
